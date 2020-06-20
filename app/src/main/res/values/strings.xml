@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recipes App</string>
+    <string name="question">Question</string>
+    <string name="no_related_topics">No Related Topics</string>
+    <string name="check_network">Check your network!</string>
+    <string name="answer">Answer</string>
+    <string name="try_again">Try Again</string>
+    <string name="no_answer">No Answer</string>
+    <string name="name">Your Name</string>
+    <string name="start">Start</string>
+</resources>

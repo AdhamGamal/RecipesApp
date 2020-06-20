@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <HorizontalScrollView
+        android:id="@+id/cuisines_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/cuisines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingHorizontal="@dimen/dimens_8dp"
+            android:paddingVertical="@dimen/dimens_4dp"
+            app:selectionRequired="false"
+            app:singleLine="true"
+            app:singleSelection="false">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/african"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="African" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/american"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="American" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/british"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="British" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/cajun"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cajun" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/caribbean"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Caribbean" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chinese"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chinese" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/eastern_european"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eastern European" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/european"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="European" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/french"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="French" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/german"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="German" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/greek"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Greek" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/indian"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indian" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/irish"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Irish" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/italian"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italian" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/japanese"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Japanese" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/korean"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Korean" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/latin_american"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latin American" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/mediterranean"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mediterranean" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/mexican"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mexican" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/middle_eastern"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Middle Eastern" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/nordic"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nordic" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/southern"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Southern" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/spanish"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spanish" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/thai"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thai" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/vietnamese"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vietnamese" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+</layout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <HorizontalScrollView
+        android:id="@+id/ingredients_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:selectionRequired="false"
+            android:paddingHorizontal="@dimen/dimens_8dp"
+            android:paddingVertical="@dimen/dimens_4dp"
+            android:clipToPadding="false"
+            app:singleLine="true"
+            app:singleSelection="false">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/dairy"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dairy" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/egg"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egg" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/gluten"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gluten" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/grain"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grain" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/peanut"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peanut" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/seafood"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seafood" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/sesame"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sesame" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/shellfish"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shellfish" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/soy"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soy" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/sulfite"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sulfite" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/tree_nut"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tree Nut" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/wheat"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wheat" />
+
+
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+</layout><!--    // Display choices (, , , , , ,-->
+    <!--    // , , , , , )-->

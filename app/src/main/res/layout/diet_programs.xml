@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <HorizontalScrollView
+        android:id="@+id/diet_programs_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:gravity="center">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/diet_programs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:selectionRequired="false"
+            android:paddingHorizontal="@dimen/dimens_8dp"
+            android:paddingVertical="@dimen/dimens_4dp"
+            android:clipToPadding="false"
+            app:singleLine="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/gluten_free"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gluten Free" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/ketogenic"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ketogenic" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/vegetarian"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vegetarian" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/lacto_vegetarian"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lacto-Vegetarian" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/ovo_vegetarian"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ovo-Vegetarian" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/vegan"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vegan" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/pescetarian"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pescetarian" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/paleo"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paleo" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/primal"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Primal" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/whole30"
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Whole30" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+</layout>
